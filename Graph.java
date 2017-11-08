@@ -54,6 +54,7 @@ public class Graph extends AppCompatActivity implements SensorEventListener {
 //                new DataPoint(4, 6)
 //        });
 //        graph.addSeries(series);
+        
         initGraph(graph);
         mTimer = new Runnable() {
             @Override
